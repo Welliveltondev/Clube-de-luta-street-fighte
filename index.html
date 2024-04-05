@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha lan-page</title>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top d-flex py-2" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand fs-4 text-center">
+                Clube Street Fight
+            </h1>
+        <nav>
+            <ul  class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobre-o-clube">
+                        <i class="bi bi-house-door me-1"></i>
+                        Sobre o clube</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobre-a-luta">
+                        <i class="bi bi-brilliance me-1"></i>
+                        Sobre a luta</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contatato">
+                        <i class="bi bi-person-rolodex me-1"></i>
+                        Contato</a>
+                </li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <section id="sobre-o-clube">
+            <div class="py-2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <img class="d-block w-100 rounded" src="./images/acaemia.jpg">
+                        </div>
+                        <div class="col-md-5">
+                            <h2>
+                            <i class="bi bi-brilliance me-1"></i>
+                            Sobre o clube</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt labore amet deserunt vero, non enim facere, laborum voluptatum dolorum nam ullam voluptates aliquam ipsam delectus dolor tempore eum? Fugit, necessitatibus.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore, assumenda vero odio mollitia, facere maiores eaque, exercitationem quibusdam nulla nihil placeat asperiores eveniet. Perferendis, tenetur neque saepe dolore laborum ipsum?
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ipsum doloribus laudantium, itaque, reiciendis, quia alias amet accusantium iure expedita asperiores maxime aliquid iusto reprehenderit culpa dolorum illum. Delectus, obcaecati.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sobre-a-luta" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center">Sobre as lutas</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <h3>Sobre boxe olímpico</h3>
+                        <img class="d-block w-100 rounded mb-2" src="./images/boxe olimpico.jpg">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores iure, cumque dolorem consequuntur corporis maxime sint olimpico.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Sobre boxe profissional</h3>
+                        <img class="d-block w-100 rounded mb-2" src="./images/boxe profissional.jpg">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia consequuntur consectetur quas vel facilis porro profissional.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Sobre jiu-jitsu</h3>
+                        <img class="d-block w-100 rounded mb-2" src="./images/brazilian-jiu-jitsu-2957075_1280.jpg">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia consequuntur consectetur quas vel facilis porro profissional.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Sobre Judó</h3>
+                        <img class="d-block w-100 rounded mb-2" src="./images/brazilian-jiu-jitsu-2957075_1280.jpg">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia consequuntur consectetur quas vel facilis porro profissional.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Sobre Muay thay</h3>
+                        <img class="d-block w-100 rounded mb-2" src="./images/muay thai.jpg">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia consequuntur consectetur quas vel facilis porro profissional.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Sobre Kung-full</h3>
+                        <img class="d-block w-100 rounded mb-2" src="./images/brazilian-jiu-jitsu-2957075_1280.jpg">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia consequuntur consectetur quas vel facilis porro profissional.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contatato">
+            <div class="container">
+                <h2 class="text-center">Contato</h2>
+                <div class="row">
+                    <div class="col-md-7">
+                        <div>
+                            <form>
+                                <label for="nome" class="form-label">Seu nome:</label>
+                                <input type="text" class="form-control" id="nome">
+                                <label class="form-label" for="telefone">Seu telefone:</label>
+                                <input type="number" class="form-control" id="telefone">
+                                <label for="email" class="form-label">Seu e-mail:</label>
+                                <input type="email" class="form-control" id="email">
+                                <label class="form-label" for="mensagem">Sua mensagem:</label>
+                                <textarea class="form-control" id="mensagem" ></textarea>
+                                <button class="btn btn-primary rounded" type="submit">Enviar</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="fs-4">Redes sociais</h3>
+                            <ul id="social-link">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp ms-2 me-2"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-youtube"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <h3 class="fs-4">Endereço</h3>
+                            <p>Rua Artaxexes - Bairro: Herodes o grande, N:1245 Feira de Sanata BA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+    <div class="container">
+        <p>
+            &copy;Todos os direitos reservados 
+        </p>
+    </div>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> 
+</body>
+</html>

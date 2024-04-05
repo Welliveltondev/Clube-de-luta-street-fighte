@@ -1,0 +1,100 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    background-color:#6495ed ;
+}
+
+.nav .nav-link.active {
+    background-color: #fff;
+    color: #6495ed;
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-brand {
+    font-family: "Bungee Spice", sans-serif;
+}
+
+.bi-house-door.active {
+    color:#6495ed;
+}
+
+ h2 {
+    font-family: "Bungee Spice" ;
+}
+
+#social-link .bi-whatsapp,
+.bi-facebook, .bi-youtube {
+    color: #6495ed;
+}
+
+#social-link li {
+    display: inline;
+    align-items: center;
+}
+
+#social-link li a {
+    text-decoration: none;
+}
+
+form button {
+    margin-top: 4px;
+}
+
+footer {
+    padding: 10px 0;
+    max-width: 1024;
+    width: 100%;
+    margin-top: 8px;
+    background-color: #6495ed;
+    
+}
+
+footer p {
+    text-align: center;
+    align-items: center;
+}
+
+#contatato {
+    height: 560px;
+}
+
+@media screen and (max-widith: 767px) {
+    .container {
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .nav-pills {
+        display: block;
+    }
+
+    form button {
+        align-items: center;
+    }
+
+    .social-link {
+        align-items: center;
+    }
+}
+
+@media screen and(min-widith: 768px) and (max-widith: 1023px) {
+    .container {
+        width: 90%;
+    }
+
+    
+}
+
+@media screen and(min-widith: 1024px) {
+    .container {
+        width: 90%;
+    }
+
+}
